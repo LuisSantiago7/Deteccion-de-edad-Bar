@@ -1,0 +1,51 @@
+body{
+    background-image: url('./cocteles-frescos-lima-fruta-mesa-ia-generativa.jpg');
+    background-size: cover;
+}
+h1{
+    font-size: 500%;
+    display: flex;
+    place-content: center;
+}
+h2{
+    font-size: 200%;
+    display: flex;
+    place-content: center;
+    color: aliceblue;
+}
+#age{
+    margin: auto;
+    display: flex;
+    place-content: center;
+    background-color: transparent;
+    width: 15%;
+    height: 50px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 150%;
+    border: 1px solid black;
+    color: aliceblue;
+}
+#boton{
+    margin: auto;
+    margin-top: 10px;
+    display: flex;
+    place-content: center;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 100%;
+    background-color: transparent;
+    color: white;
+    border: 1px solid black;
+}
+#boton:hover{
+    transform: scale(1.1);
+    transition: 1.25s;
+}
+#boton:not(hover){
+    transform: scale(1);
+    transition: 1.25s;
+}
+#access, #price{
+
+}
